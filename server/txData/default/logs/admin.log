@@ -1,0 +1,19 @@
+================================================================
+======== txAdmin v8.1.1 atop fxserver 35805 Starting - 6/9/2026, 11:50:49 a. m.
+================================================================
+[11:52:28][Vxxxxxxx] created admins file
+[11:52:43][Vxxxxxxx] Config changes: general.serverName, server.dataPath
+[11:52:43][Vxxxxxxx] Changing global/fxserver settings via setup stepper.
+[11:52:56][MONITOR] Restarting server: Server process close detected.
+[11:53:43][MONITOR] Restarting server: Server boot timed out (P:45s|HB:--|HC:--).
+[11:53:51][MONITOR] Restarting server: Server process close detected.
+[11:53:59][MONITOR] Restarting server: Server process close detected.
+[11:58:34][Vxxxxxxx] executed "setgroup 1 admin"
+================================================================
+======== txAdmin v8.1.1 atop fxserver 35805 Starting - 6/9/2026, 4:56:07 p. m.
+================================================================
+[17:00:52][Vxxxxxxx] logged in from 127.0.0.1 via cfxre auth
+[17:01:12][Vxxxxxxx] Modified own identifiers: added discord:1487228659730219142
+[17:17:45][Vxxxxxxx] Refreshed resources
+[17:17:53][Vxxxxxxx] Ensured resource "saant_hud"
+[17:17:55][Vxxxxxxx] Ensured resource "saant_hudid"

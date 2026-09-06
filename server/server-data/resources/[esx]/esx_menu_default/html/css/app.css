@@ -1,0 +1,130 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: 'pcdown';
+	src: url('../fonts/ChaletLondonNineteenSixty.ttf');
+}
+
+@font-face {
+	font-family: adventure;
+	src: url('../fonts/adventure.otf');
+}
+@font-face {
+	font-family: days;
+	src: url('../fonts/LEMONMILK-Bold.otf');
+}
+
+.menu {
+	background-color: rgba(0, 0, 0, 0.849);
+	border-radius: 20px;
+	font-family:  pcdown;
+	min-width: 400px;
+	color: rgb(0, 0, 0);
+	box-shadow: 2px 2px 5px rgb(0, 60, 255);
+	position: absolute;
+}
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+-- de aqui para bajo
+
+.menu.align-right {
+	right: 0;
+	top: 0%;
+	transform: translate(0, -0%);
+}
+
+
+.menu.align-bottom-right {
+	right: 57;
+	bottom: 110;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu .head {
+background-image: url('https://imgur.com/cXxnMBL.png');
+  border-radius: 20px 20px 0px 0px;
+  text-align      : center;
+  text-shadow: 5px 0px 14px #000000;
+  height          : 85px;
+  line-height     : 40px;
+  font-family: 'bankgothic';
+	/*font-weight: bold;*/
+}
+.menu .headtitle {
+	color: #000000;
+	line-height: 14px;
+	text-align: center;
+	padding-top: 35px;
+	
+	font-size: 21px;
+	/*font-weight: bold;*/
+	color: #ffffff;
+}
+.menu .menu-items {
+	max-height: 600px;
+	overflow-y: hidden;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.menu .menu-items .menu-item {
+	height: 40px;
+	display: block;
+	-box-shadow: inset 1px 0px 0px 1px #ff3333;
+	height: 32px;
+	line-height: 32px;
+	color: rgb(255, 255, 255);
+	/*text-align      : center;*/
+	padding-left: 10px;
+}
+
+.menu .menu-items .menu-item.selected {
+	background-color: rgba(0, 60, 255, 0.616);
+	color: rgb(255, 255, 255);
+}
+
+.ItemImage {
+    max-height: 30px;
+    max-width: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}

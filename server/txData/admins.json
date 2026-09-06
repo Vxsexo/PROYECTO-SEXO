@@ -1,0 +1,21 @@
+[
+  {
+    "$schema": 1,
+    "name": "Vxxxxxxx",
+    "master": true,
+    "password_hash": "$2a$11$1mbDfihJgUIs2B3BoLTqUu0OgGcVdy2RjM.tSDpLLNyUxTwv92x9W",
+    "providers": {
+      "citizenfx": {
+        "id": "Vxxxxxxx",
+        "identifier": "fivem:19742870",
+        "data": {}
+      },
+      "discord": {
+        "id": "1487228659730219142",
+        "identifier": "discord:1487228659730219142",
+        "data": {}
+      }
+    },
+    "permissions": []
+  }
+]

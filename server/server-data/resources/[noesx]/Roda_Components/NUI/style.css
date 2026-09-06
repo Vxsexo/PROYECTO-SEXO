@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.weapon {
+    position:relative;
+    height: 400px;
+    width: 600px;
+    margin: 100px auto 0 auto;
+    background-color: white;
+    text-align: center;
+    padding-top: 130px;
+    background-image: url(./assests/grid-png-43563.png);
+    border-top: 10px solid rgb(5, 39, 61);
+    background-size: 1000px;
+}
+
+.weaponimg {
+    height: 140px;
+}
+
+.compimg {
+    max-height: 46px;
+    max-width: 46px;
+}
+
+.comp {
+    width:50px;
+    height:50px;
+    padding-top: 2px;
+    background-color:#00000048;
+    position:absolute;
+}
+
+.comp:hover {
+    background-color:#00000094;
+}

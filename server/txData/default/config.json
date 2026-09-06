@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "general": {
+    "serverName": "WestPeru"
+  },
+  "server": {
+    "dataPath": "C:/Users/Valentino/Desktop/server/server-data/"
+  }
+}
